@@ -103,7 +103,4 @@ This project demonstrates the effectiveness of deep learning in:
 - Scikit-learn
 - Matplotlib, Seaborn
 
----
-
-## 📁 File Structure
 
