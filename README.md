@@ -6,7 +6,7 @@ This project implements deep learning models to detect Parkinson's Disease (PD) 
 
 ---
 
-## 🧠 Problem Statement
+##  Problem Statement
 
 Parkinson's Disease affects speech characteristics, and this project aims to:
 - **Classify** subjects as either **healthy** or having **PD**
@@ -14,7 +14,7 @@ Parkinson's Disease affects speech characteristics, and this project aims to:
 
 ---
 
-## 📊 Dataset
+##  Dataset
 
 **Source:** [UCI Parkinson Speech Dataset](https://archive.ics.uci.edu/dataset/301/parkinson+speech+dataset+with+multiple+types+of+Audio+recordings)
 
@@ -26,7 +26,7 @@ Parkinson's Disease affects speech characteristics, and this project aims to:
 
 ---
 
-## 🔄 Data Preprocessing
+##  Data Preprocessing
 
 - **Loading Data:** Read `.txt` files using `pandas`
 - **Column Naming:** Features labeled as `f1` to `f26`, with `class` and `UPDRS`
@@ -42,7 +42,7 @@ Parkinson's Disease affects speech characteristics, and this project aims to:
 
 ---
 
-## 🧱 Model Architectures
+##  Model Architectures
 
 Models are implemented using **TensorFlow/Keras**, each encapsulated in a function:
 - **LSTM:** Bidirectional LSTM with LayerNorm, Dense, Dropout
@@ -53,7 +53,7 @@ Models are implemented using **TensorFlow/Keras**, each encapsulated in a functi
 
 ---
 
-## 🏋️ Model Training & Compilation
+##  Model Training & Compilation
 
 - Compiled using the **Adam** optimizer
 - Loss:
@@ -66,11 +66,11 @@ Models are implemented using **TensorFlow/Keras**, each encapsulated in a functi
 
 ---
 
-## 📈 Results & Evaluation
+##  Results & Evaluation
 
 Each model's performance is evaluated on both classification and regression tasks.
 
-### 🔢 Classification Accuracy
+###  Classification Accuracy
 - **SimpleRNN:** ⭐ **87.5%**
 
 ### 📉 Regression MAE (UPDRS Prediction)
@@ -78,7 +78,7 @@ Each model's performance is evaluated on both classification and regression task
 
 ---
 
-## 📊 Comparison & Discussion
+##  Comparison & Discussion
 
 - Sequential models outperform CNN-based DenseNet1D for classification.
 - GRU excels in UPDRS regression, likely due to its efficient gating mechanism.
@@ -86,7 +86,7 @@ Each model's performance is evaluated on both classification and regression task
 
 ---
 
-## 📌 Conclusion
+##  Conclusion
 
 This project demonstrates the effectiveness of deep learning in:
 - Diagnosing PD from voice samples
@@ -95,7 +95,7 @@ This project demonstrates the effectiveness of deep learning in:
 
 ---
 
-## 🛠️ Tools & Technologies
+##  Tools & Technologies
 
 - Python
 - Pandas, NumPy
