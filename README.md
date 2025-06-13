@@ -71,10 +71,10 @@ Models are implemented using **TensorFlow/Keras**, each encapsulated in a functi
 Each model's performance is evaluated on both classification and regression tasks.
 
 ###  Classification Accuracy
-- **SimpleRNN:** ⭐ **87.5%**
+- **SimpleRNN:**  **87.5%**
 
 ### 📉 Regression MAE (UPDRS Prediction)
-- **GRU:** ⭐ **8.8119**
+- **GRU:**  **8.8119**
 
 ---
 
